@@ -1,0 +1,74 @@
+/*Universal*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+
+
+/*Type or Tag*/
+p {
+  margin: 10px 0;
+  font-family: 'Quicksand', sans-serif;;
+}
+
+/* Classname*/
+.class {
+
+    text-decoration: underline;
+
+}
+
+/*ID*/
+#id {
+
+    font-family: monospace;
+
+}
+
+/*Relational*/
+li:has(a) {
+
+    display: flex;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr; 
+  grid-template-rows: repeat(3, 150px); 
+  gap: 10px;
+  margin-top: 30px;
+  background-color: #ffe8ef;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.item {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #cc7722;
+}
+
+.item img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: rgb(245, 152, 245);
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  text-align: center; 
+}
